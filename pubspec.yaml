@@ -21,7 +21,27 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: Fonts/Pretendard-Thin.otf
+          weight: 100
+        - asset: Fonts/Pretendard-ExtraLight.otf
+          weight: 200
+        - asset: Fonts/Pretendard-Light.otf
+          weight: 300
+        - asset: Fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: Fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: Fonts/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: Fonts/Pretendard-Bold.otf
+          weight: 700
+        - asset: Fonts/Pretendard-ExtraBold.otf
+          weight: 800
+        - asset: Fonts/Pretendard-Black.otf
+          weight: 900
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
