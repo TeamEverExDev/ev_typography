@@ -8,6 +8,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -17,6 +18,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -26,6 +28,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -35,6 +38,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -44,6 +48,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -53,6 +58,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -62,6 +68,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -71,6 +78,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -80,6 +88,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -89,6 +98,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -98,6 +108,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -107,6 +118,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -116,6 +128,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -125,6 +138,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -134,6 +148,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -143,6 +158,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
@@ -152,6 +168,7 @@ class EvTypography {
     fontFamily: "Pretendard",
     fontWeight: FontWeight.w400,
     color: Colors.black,
+    height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
   );
