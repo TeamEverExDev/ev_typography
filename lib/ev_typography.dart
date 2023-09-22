@@ -185,6 +185,8 @@ class _testState extends State<test> {
   @override
   Widget build(BuildContext context) {
     EvTypography.body1.copyWith();
+    // Fix Line Height
+    // EvTypography.detail2.copyWith(height: 1.2);
     return const Placeholder();
   }
 }
