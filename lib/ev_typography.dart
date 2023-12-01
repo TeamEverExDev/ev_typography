@@ -11,6 +11,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle heading2 = const TextStyle(
@@ -21,6 +22,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle heading3 = const TextStyle(
@@ -31,6 +33,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle heading4 = const TextStyle(
@@ -41,6 +44,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle heading5 = const TextStyle(
@@ -51,6 +55,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle heading6 = const TextStyle(
@@ -61,6 +66,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle title1 = const TextStyle(
@@ -71,6 +77,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle title2 = const TextStyle(
@@ -81,6 +88,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle title3 = const TextStyle(
@@ -91,6 +99,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle title4 = const TextStyle(
@@ -101,6 +110,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle body1 = const TextStyle(
@@ -111,6 +121,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle body2 = const TextStyle(
@@ -121,6 +132,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle body3 = const TextStyle(
@@ -131,6 +143,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle body4 = const TextStyle(
@@ -141,6 +154,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle detail1 = const TextStyle(
@@ -151,6 +165,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle detail2 = const TextStyle(
@@ -161,6 +176,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 
   static TextStyle detail3 = const TextStyle(
@@ -171,6 +187,7 @@ class EvTypography {
     height: 1.5,
     textBaseline: TextBaseline.ideographic,
     leadingDistribution: TextLeadingDistribution.even,
+    package: "ev_typography",
   );
 }
 
