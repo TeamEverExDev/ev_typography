@@ -3,207 +3,128 @@ library ev_typography;
 import 'package:flutter/material.dart';
 
 class EvTypography {
-  static TextStyle heading1 = const TextStyle(
-    fontSize: 48,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
-  );
-
-  static TextStyle heading2 = const TextStyle(
-    fontSize: 44,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
-  );
-
-  static TextStyle heading3 = const TextStyle(
-    fontSize: 40,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
-  );
-
-  static TextStyle heading4 = const TextStyle(
+  static MoraTextStyle headline1 = MoraTextStyle(
     fontSize: 36,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 48,
+    letterSpacing: -0.027,
   );
 
-  static TextStyle heading5 = const TextStyle(
-    fontSize: 32,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
-  );
-
-  static TextStyle heading6 = const TextStyle(
+  static MoraTextStyle headline2 = MoraTextStyle(
     fontSize: 28,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 38,
+    letterSpacing: -0.0236,
   );
 
-  static TextStyle title1 = const TextStyle(
-    fontSize: 26,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
-  );
-
-  static TextStyle title2 = const TextStyle(
+  static MoraTextStyle headline3 = MoraTextStyle(
     fontSize: 24,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 32,
+    letterSpacing: -0.023,
   );
 
-  static TextStyle title3 = const TextStyle(
+  static MoraTextStyle title1 = MoraTextStyle(
     fontSize: 22,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 31,
+    letterSpacing: -0.0194,
   );
 
-  static TextStyle title4 = const TextStyle(
+  static MoraTextStyle title2 = MoraTextStyle(
     fontSize: 20,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 28,
+    letterSpacing: -0.012,
   );
 
-  static TextStyle body1 = const TextStyle(
+  static MoraTextStyle heading1 = MoraTextStyle(
     fontSize: 18,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 26,
+    letterSpacing: -0.002,
   );
 
-  static TextStyle body2 = const TextStyle(
+  static MoraTextStyle heading2 = MoraTextStyle(
     fontSize: 17,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 24,
+    letterSpacing: 0.0,
   );
 
-  static TextStyle body3 = const TextStyle(
+  static MoraTextStyle body1Normal = MoraTextStyle(
     fontSize: 16,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 24,
+    letterSpacing: 0.0057,
   );
 
-  static TextStyle body4 = const TextStyle(
+  static MoraTextStyle body2Normal = MoraTextStyle(
     fontSize: 15,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 22,
+    letterSpacing: 0.0096,
   );
 
-  static TextStyle detail1 = const TextStyle(
+  static MoraTextStyle body1Reading = MoraTextStyle(
+    fontSize: 16,
+    lineHeight: 26,
+    letterSpacing: 0.0057,
+  );
+
+  static MoraTextStyle body2Reading = MoraTextStyle(
+    fontSize: 15,
+    lineHeight: 24,
+    letterSpacing: 0.0096,
+  );
+
+  static MoraTextStyle label1Normal = MoraTextStyle(
     fontSize: 14,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 20,
+    letterSpacing: 0.0145,
   );
 
-  static TextStyle detail2 = const TextStyle(
+  static MoraTextStyle label1Reading = MoraTextStyle(
+    fontSize: 14,
+    lineHeight: 22,
+    letterSpacing: 0.0145,
+  );
+
+  static MoraTextStyle label2 = MoraTextStyle(
     fontSize: 13,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 18,
+    letterSpacing: 0.0194,
   );
 
-  static TextStyle detail3 = const TextStyle(
+  static MoraTextStyle caption1 = MoraTextStyle(
     fontSize: 12,
-    fontFamily: "Pretendard",
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-    height: 1.5,
-    textBaseline: TextBaseline.ideographic,
-    leadingDistribution: TextLeadingDistribution.even,
-    package: "ev_typography",
+    lineHeight: 16,
+    letterSpacing: 0.0252,
+  );
+
+  static MoraTextStyle caption2 = MoraTextStyle(
+    fontSize: 11,
+    lineHeight: 14,
+    letterSpacing: 0.0311,
   );
 }
 
-class test extends StatefulWidget {
-  const test({super.key});
+class MoraTextStyle {
+  MoraTextStyle({
+    required this.fontSize,
+    required this.lineHeight,
+    required this.letterSpacing,
+  });
+  final double fontSize;
+  final double lineHeight;
+  final double letterSpacing;
 
-  @override
-  State<test> createState() => _testState();
-}
+  TextStyle get regular => _generateTextStyle(FontWeight.normal);
+  TextStyle get medium => _generateTextStyle(FontWeight.w500);
+  TextStyle get bold => _generateTextStyle(FontWeight.w700);
 
-class _testState extends State<test> {
-  @override
-  Widget build(BuildContext context) {
-    EvTypography.body1.copyWith();
-    // Fix Line Height
-    // EvTypography.detail2.copyWith(height: 1.2);
-    return const Placeholder();
+  TextStyle _generateTextStyle(FontWeight fontWeight) {
+    return TextStyle(
+      fontSize: fontSize,
+      fontFamily: "Pretendard",
+      fontWeight: fontWeight,
+      letterSpacing: fontSize * letterSpacing,
+      color: Colors.black,
+      height: lineHeight / fontSize,
+      textBaseline: TextBaseline.ideographic,
+      leadingDistribution: TextLeadingDistribution.even,
+      package: "ev_typography",
+    );
   }
 }
