@@ -102,29 +102,24 @@ class EvTypography {
 
 class MoraTextStyle {
   MoraTextStyle({
-    required this.fontSize,
-    required this.lineHeight,
-    required this.letterSpacing,
-  });
-  final double fontSize;
-  final double lineHeight;
-  final double letterSpacing;
+    required double fontSize,
+    required double lineHeight,
+    required double letterSpacing,
+  }) : _baseTextStyle = TextStyle(
+          fontSize: fontSize,
+          fontFamily: "Pretendard",
+          fontWeight: FontWeight.normal,
+          letterSpacing: fontSize * letterSpacing,
+          color: Colors.black,
+          height: lineHeight / fontSize,
+          textBaseline: TextBaseline.ideographic,
+          leadingDistribution: TextLeadingDistribution.even,
+          package: "ev_typography",
+        );
 
-  TextStyle get regular => _generateTextStyle(FontWeight.normal);
-  TextStyle get medium => _generateTextStyle(FontWeight.w500);
-  TextStyle get bold => _generateTextStyle(FontWeight.w700);
+  final TextStyle _baseTextStyle;
 
-  TextStyle _generateTextStyle(FontWeight fontWeight) {
-    return TextStyle(
-      fontSize: fontSize,
-      fontFamily: "Pretendard",
-      fontWeight: fontWeight,
-      letterSpacing: fontSize * letterSpacing,
-      color: Colors.black,
-      height: lineHeight / fontSize,
-      textBaseline: TextBaseline.ideographic,
-      leadingDistribution: TextLeadingDistribution.even,
-      package: "ev_typography",
-    );
-  }
+  TextStyle get regular => _baseTextStyle;
+  TextStyle get medium => _baseTextStyle.copyWith(fontWeight: FontWeight.w500);
+  TextStyle get bold => _baseTextStyle.copyWith(fontWeight: FontWeight.w700);
 }
